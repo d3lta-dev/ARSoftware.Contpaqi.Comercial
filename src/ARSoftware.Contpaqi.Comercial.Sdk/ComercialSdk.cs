@@ -333,7 +333,7 @@ public static class ComercialSdk
     [DllImport("MGWServicios.dll", EntryPoint = "fEditaMovtoContable")]
     public static extern int fEditaMovtoContable();
 
-    [DllImport("MGW_SDK.dll", EntryPoint = "fEditaParametros")]
+    [DllImport("MGWServicios.dll", EntryPoint = "fEditaParametros")]
     public static extern int fEditaParametros();
 
     [DllImport("MGWServicios.dll", EntryPoint = "fEditaProducto")]
@@ -429,7 +429,7 @@ public static class ComercialSdk
     [DllImport("MGWServicios.dll", EntryPoint = "fGuardaMovtoContable")]
     public static extern int fGuardaMovtoContable();
 
-    [DllImport("MGW_SDK.dll", EntryPoint = "fGuardaParametros")]
+    [DllImport("MGWServicios.dll", EntryPoint = "fGuardaParametros")]
     public static extern int fGuardaParametros();
 
     [DllImport("MGWServicios.dll", EntryPoint = "fGuardaProducto")]
@@ -914,7 +914,7 @@ public static class ComercialSdk
     [DllImport("MGWServicios.dll", EntryPoint = "fSetDatoMovtoContable")]
     public static extern int fSetDatoMovtoContable(string aCampo, string aValor);
 
-    [DllImport("MGW_SDK.dll", EntryPoint = "fSetDatoParametros")]
+    [DllImport("MGWServicios.dll", EntryPoint = "fSetDatoParametros")]
     public static extern int fSetDatoParametros(string aCampo, StringBuilder aValor);
 
     [DllImport("MGWServicios.dll", EntryPoint = "fSetDatoProducto")]
